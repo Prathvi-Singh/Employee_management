@@ -1,0 +1,48 @@
+  <!-- <table>
+    <tr>
+      
+        <th>id</th>
+        <th> Name</th>
+        <th>Email</th>
+        <th>password</th>
+        <th>contact</th>
+        <th>Department</th>
+        <th>DateofJoin</th>
+        <th>isAdmin</th>
+
+    </tr>
+    <% data.forEach((element)=> { %>
+        <tr>
+          <td>
+            <%= element.id %>
+        </td>
+            <td>
+                <%= element.name %>
+            </td>
+            <td>
+                <%= element.email %>
+            </td>
+            <td>
+                <%= element.password %>
+            </td>
+            <td>
+                <%= element.Department %>
+            </td>
+            <td>
+              <%= element.contact %>
+          </td>
+
+            <td>
+                <%= element.DateOfJoin %>
+            </td>
+        </tr>
+        <td>
+            <form action="/delete_employee" method="post">
+              <input type="text" style="display: none;" 
+                 name="id" 
+                 value="<%= element.id %>">
+              <button type="submit">Delete</button>
+            </form>
+      </td>
+        <% }) %>
+</table> -->
